@@ -1,0 +1,24 @@
+.contactpage {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 200px);
+    gap: 30px;
+    grid-template-rows: 300px 300px;
+    position: relative;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.layoutpage.custom {
+    position: relative;
+    height: auto;
+}
+
+.card img {
+    width: 200px;
+}
